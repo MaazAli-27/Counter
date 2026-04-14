@@ -1,9 +1,13 @@
+html{
+    background-color: rgb(240, 238, 238);
+}
 div {
-    width: 235px;              
+    width: 251px;              
     margin: 85px auto;       
     padding: 20px;
     border: 20px solid black;
-    border-radius: 0;
+    border-radius: 5px;
+    background-color: bisque;
 }
 
 #counter{
@@ -19,10 +23,11 @@ h1{
 }
 
 button {
+    border: 2.5px solid crimson; 
+    border-radius: 5px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size:18px;
     padding: 10px 15px;
-    border:none;
     background: black;
     color: white;
     cursor: pointer;
@@ -35,11 +40,14 @@ button:hover {
     box-shadow: 0 5px 10px rgba(0,0,0,0.3);
 }
 
+
 h2{
      
    
     
     color:green;
 }
+
+
 
 
